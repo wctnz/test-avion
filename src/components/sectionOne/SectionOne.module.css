@@ -1,0 +1,70 @@
+.sectionOne {
+  width: 1440px;
+  display: flex;
+  justify-content: center;
+  padding: 60px 80px;
+}
+
+.container {
+  width: 1280px;
+  height: 584px;
+}
+
+.content {
+  display: flex;
+}
+
+.leftPart {
+  width: 760px;
+  background-color: #2a254b;
+}
+
+.title {
+  font-family: var(--font-option);
+  font-size: 16px;
+  line-height: 1.4;
+  color: white;
+  padding: 60px 187px 41px 60px;
+}
+
+.button {
+  padding: 0px 0px 0px 60px;
+}
+
+.button button {
+  padding: 16px 32px;
+  color: white;
+  background-color: #494565;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.button:hover button {
+  opacity: 0.5;
+}
+
+.desc {
+  color: white;
+  padding: 196px 98px 60px 60px;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+.rightPath {
+  width: 520px;
+  height: 584px;
+}
+
+.rightPath img {
+  object-fit: cover;
+}
+
+.leftPartHeader {
+}
+
+.leftPartBtn {
+}
+
+.leftPartDesc {
+}

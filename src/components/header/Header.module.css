@@ -1,0 +1,88 @@
+.header {
+  width: 1440px;
+  padding: 20px 28px;
+}
+
+.header__container {
+  width: 1384px;
+}
+
+.header__rowTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__search svg {
+  color: black;
+  width: 16px;
+  height: 16px;
+}
+
+.header__search svg path {
+  fill: #2a254b;
+}
+
+.header__logo {
+  font-size: 24px;
+  color: #22202e;
+  font-family: var(--font-option);
+}
+.header__user {
+  display: flex;
+}
+
+.cardIcon {
+  margin-right: 16px;
+}
+
+.header__user svg {
+  width: 15px;
+  height: 15px;
+}
+
+.header__user svg path {
+  fill: #2a254b;
+}
+
+.header__divider {
+  height: 1px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+  padding-top: 20px;
+}
+.header__rowBottom {
+  padding: 20px 0px;
+}
+
+.header__nav {
+}
+
+.header__navList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__navLink a {
+  color: #726e8d;
+  position: relative;
+}
+
+.header__navLink a::after {
+  position: absolute;
+  left: 0;
+  width: 0%;
+  bottom: -7px;
+  content: "";
+  display: block;
+  height: 2px;
+  background-color: #726e8d;
+  transition: width 0.2s ease-in;
+}
+
+.header__navLink a:hover::after {
+  width: 100%;
+}
+
+.header__navLink + .header__navLink {
+  margin-left: 44px;
+}

@@ -1,0 +1,46 @@
+.sectionTwo {
+width: 1440px;
+padding: 0 110px 0 86px;
+}
+
+.container {
+}
+
+.content {
+}
+
+.title {
+}
+
+.title h3 {
+  font-family: var(--font-option);
+  font-size: 24px;
+  text-align: center;
+  color: #2a254b;
+}
+
+.row {
+display: flex;
+gap: 91px;
+
+}
+
+.section {
+  padding: 51px 0 86px 0;
+}
+
+.section svg {
+}
+
+.section__title {
+  font-family: var(--font-option);
+  font-size: 20px;
+  line-height: 1.4;
+  color: #2a254b;
+}
+
+.section__desc {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2a254b;
+}

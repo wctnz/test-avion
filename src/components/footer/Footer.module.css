@@ -1,0 +1,125 @@
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul a {
+  display: block;
+}
+
+.footer {
+  width: 1440px;
+  padding: 0 83px 0 82px;
+  background-color: #2a254b;
+}
+
+.container {
+}
+
+.rowTop {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 58px;
+  color: white;
+}
+
+.rowTop p {
+  font-family: var(--font-option);
+}
+
+.menu {
+}
+
+.menu p {
+}
+
+.menu ul a {
+  color: white;
+  padding-top: 12px;
+}
+
+.categories {
+}
+
+.categories p {
+}
+
+.categories ul a {
+  color: white;
+  padding-top: 12px;
+}
+
+.ourCompany {
+}
+
+.ourCompany p {
+}
+
+.ourCompany ul a {
+  color: white;
+  padding-top: 12px;
+}
+
+.signUp {
+}
+
+.signUpDesc {
+  color: white;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+form {
+  padding: 16px 0 0 0 !important;
+}
+
+.inputEmail {
+  width: 509px;
+  height: 56px;
+  background-color: #4a4666;
+  border: none;
+}
+
+.inputEmail {
+  padding-left: 32px;
+}
+
+.inputSubmit {
+  padding: 16px 32px;
+  background-color: white;
+  color: #2a254b;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.inputSubmit:hover {
+  color: rgb(168, 164, 164);
+}
+
+.divider {
+  height: 1px;
+  border-bottom: 1px solid #4c4c87;
+  padding-top: 20px;
+}
+
+.rowBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyRight {
+  padding: 24px 0 25px 0;
+  font-size: 14px;
+  color: white;
+}
+
+.socials {
+  display: flex;
+  gap: 24px;
+}
+
+.socials svg path {
+  fill: white;
+}

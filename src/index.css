@@ -1,13 +1,23 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  src: url(./../public/fonts/Satoshi-Regular.ttf);
+  font-family: Satoshi;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  src: url(./../public/fonts/ClashDisplay-Regular.ttf);
+  font-family: ClashDisplay-Regular;
+}
+
+@font-face {
+  src: url(./../public/fonts/ClashDisplay-Medium.ttf);
+  font-family: ClashDisplay-Medium;
+}
+
+body {
+--font-main: Satoshi;
+--font-option: ClashDisplay-Regular;
+--font-option-accent: ClashDisplay-Medium;
+
+  font-family: var(--font-main);
+  font-size: 16px;
 }

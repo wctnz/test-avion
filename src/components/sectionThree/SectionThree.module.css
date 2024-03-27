@@ -1,0 +1,59 @@
+.sectionThree {
+  width: 1440px;
+}
+
+.container {
+}
+
+.row {
+  display: flex;
+}
+
+.sectionLeft {
+  width: 50%;
+  padding: 0 100px 0 84px;
+}
+
+.title {
+  padding-top: 72px;
+  font-size: 22px;
+  font-family: var(--font-option);
+  line-height: 1.4;
+  color: #2a254b;
+}
+
+.title h1 {
+}
+
+.desc {
+}
+
+.desc p {
+  padding-top: 25px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #505977;
+}
+
+.button {
+    padding-top: 196px;
+}
+
+.button button {
+    padding: 16px 32px;
+    color: #2a254b;
+    background-color: #f9f9f9;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+button:hover {
+    background-color: #eae2e2;
+  } 
+
+.sectionRight {
+}
+
+.sectionRight img {
+}

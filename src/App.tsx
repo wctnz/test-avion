@@ -1,25 +1,24 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Footer from "./components/footer/Footer";
+import Header from "./components/header/Header";
+import JoinTheClub from "./components/joinTheClub/JoinTheClub";
+import NewCeramics from "./components/newCeramics/NewCeramics";
+import OurPopular from "./components/ourPopular/OurPopular";
+import SectionOne from "./components/sectionOne/SectionOne";
+import SectionThree from "./components/sectionThree/SectionThree";
+import SectionTwo from "./components/sectionTwo/SectionTwo";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Header />
+    <SectionOne />
+    <SectionTwo />
+    <NewCeramics />
+    <OurPopular/>
+    <JoinTheClub />
+    <SectionThree />
+    <Footer />
+    </>
   );
 }
 
