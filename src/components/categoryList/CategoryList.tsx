@@ -21,7 +21,7 @@ const CategoryList: FC<CategoryListProps> = ({ selected, category }) => {
                             <img src={el.image} alt={el.title} className={ cl.cardImage }/>
                             <h4 className={cl.cartTitle}>{el.title}</h4>
                             <p className={cl.cartDesc}>{el.price}</p>
-                            <Link className={cl.cardLink} to={`http://localhost:3000/${el.category}/${ el.id }`}></Link>
+                            <Link className={cl.cardLink} to={`/${el.category}/${ el.id }`}></Link>
                         </div>
                     ))}
                 </div>
