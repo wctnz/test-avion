@@ -5,10 +5,12 @@ const SectionOne = () => {
     return (
         <div className={cl.sectionOne}>
             <div className={cl.container}>
+
                 <div className={cl.content}>
+
                     <div className={cl.leftPart}>
                         <div className={cl.title}>
-                            <h1 className={ cl.leftPartHeader }>The furniture brand for the future, with timeless designs</h1>
+                            <h1 className={ cl.leftPartHeader }>The furniture brand for the <br/> future, with timeless designs</h1>
                         </div>
                         <div className={cl.button}>
                             <button className={ cl.leftPartBtn }>View collection</button>
@@ -19,6 +21,7 @@ const SectionOne = () => {
                                 using modern web technologies.</p>
                         </div>
                     </div>
+                    
                     <div className={cl.rightPath}>
                         <img src={ chairOne } alt="chair" className={cl.rightPathImg}/>
                     </div>

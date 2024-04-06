@@ -1,5 +1,6 @@
 .sectionThree {
-  width: 1440px;
+  /* width: 1440px; */
+  width: 100vw;
 }
 
 .container {
@@ -7,6 +8,7 @@
 
 .row {
   display: flex;
+  flex-direction: row;
 }
 
 .sectionLeft {
@@ -36,24 +38,72 @@
 }
 
 .button {
-    padding-top: 196px;
+  padding: 196px 0 24px 0;
 }
 
 .button button {
+  padding: 16px 32px;
+  color: #2a254b;
+  background-color: #f9f9f9;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+button:hover {
+  background-color: #eae2e2;
+}
+
+.sectionRight {
+}
+
+.sectionRight img {
+  /* width: 720px; */
+}
+
+@media all and (max-width: 1350px) {
+  .button {
+    padding: 24px 0 0px 0;
+  }
+}
+
+@media all and (max-width: 992px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .sectionRight {
+    padding-top: 38px;
+  }
+
+  .sectionLeft {
+    width: 100%;
+    padding: 0px 24px 0 24px;
+  }
+  
+  .title {
+    padding-top: 48px;
+    font-size: 22px;
+    font-family: var(--font-option);
+    line-height: 1.4;
+    color: #2a254b;
+  }
+
+  .button {
+    padding: 64px 0 0px 0;
+  }
+  
+  .button button {
+    width: 100%;
     padding: 16px 32px;
     color: #2a254b;
     background-color: #f9f9f9;
     border: none;
     cursor: pointer;
     transition: all 0.2s ease-in;
-}
-
-button:hover {
-    background-color: #eae2e2;
-  } 
-
-.sectionRight {
-}
-
-.sectionRight img {
+  }
+  .sectionRight img {
+    object-fit: cover;
+    width: 100% !important;
+  }
 }

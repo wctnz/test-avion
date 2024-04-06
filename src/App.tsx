@@ -1,24 +1,18 @@
-import Footer from "./components/footer/Footer";
-import Header from "./components/header/Header";
-import JoinTheClub from "./components/joinTheClub/JoinTheClub";
-import NewCeramics from "./components/newCeramics/NewCeramics";
-import OurPopular from "./components/ourPopular/OurPopular";
-import SectionOne from "./components/sectionOne/SectionOne";
-import SectionThree from "./components/sectionThree/SectionThree";
-import SectionTwo from "./components/sectionTwo/SectionTwo";
+import { Route, Routes } from "react-router-dom";
+import Cart from "./pages/cart/Cart";
+import CategoryPage from "./pages/categoryPage/CategoryPage";
+import HomePage from "./pages/homePage/HomePage";
+import ProductPage from "./pages/productPage/ProductPage";
+
 
 function App() {
   return (
-    <>
-    <Header />
-    <SectionOne />
-    <SectionTwo />
-    <NewCeramics />
-    <OurPopular/>
-    <JoinTheClub />
-    <SectionThree />
-    <Footer />
-    </>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/cart" element={<Cart />} />
+        <Route path="/:category/:id" element={<ProductPage />} />
+        <Route path="/:category/" element={<CategoryPage />} />
+      </Routes>
   );
 }
 

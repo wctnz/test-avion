@@ -1,8 +1,18 @@
 .newCeramics {
-  width: 1440px;
+  /* width: 1440px; */
+  width: 100vw;
   padding: 0px 80px;
 }
 .container {
+}
+
+.newCeramics__rowCardImg {
+/* width: 305px; */
+}
+
+.newCeramics__rowCardImg img {
+  /* object-fit: cover; */
+  /* width: 305px; */
 }
 
 .newCeramics__title {
@@ -10,18 +20,28 @@
 }
 
 .newCeramics__title h1 {
+  font-family: var(--font-option);
+  color: #2a254b;
 }
+
 .newCeramics__row {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 20px;
 }
+
+.newCeramics__rowGroupTwo {
+  display: flex;
+  gap: 16px;
+}
+
 .newCeramics__rowCard {
   position: relative;
 }
 
-.newCeramics__rowCard a {
+.cardLink {
   position: absolute;
   top: 0;
   left: 0;
@@ -31,12 +51,22 @@
   transition: all 0.2s ease-in;
 }
 
+/* .newCeramics__rowCard a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  transition: all 0.2s ease-in;
+} */
+
 .newCeramics__rowCard:hover {
   opacity: 0.8;
 }
 
 .newCeramics__rowCardImg img {
-  height: 375px;
+  /* height: 375px; */
 }
 
 .newCeramics__rowCardTitle {
@@ -47,13 +77,13 @@
   font-family: var(--font-option);
   font-size: 20px;
   line-height: 1.4;
-  color: #2A254B;
+  color: #2a254b;
 }
 
 .newCeramics__rowCard p {
   font-size: 18px;
   line-height: 1.5;
-  color: #2A254B;
+  color: #2a254b;
   padding-top: 8px;
 }
 
@@ -65,16 +95,73 @@
   text-align: center;
 }
 
-
 .newCeramics__button button {
   padding: 16px 32px;
-  color: #2A254B;
-  background-color: #F9F9F9;
+  color: #2a254b;
+  background-color: #f9f9f9;
   border: none;
   cursor: pointer;
   transition: all 0.2s ease-in;
 }
 
 button:hover {
-  background-color: #eae2e2
+  background-color: #eae2e2;
+}
+
+@media all and (max-width: 992px) {
+  .newCeramics__row {
+    flex-wrap: wrap;
+  }
+}
+
+@media all and (max-width: 390px) {
+  .newCeramics {
+    padding: 0 24px 0 24px;
+  }
+
+  .newCeramics__title {
+    padding: 80px 0 19px 0;
+    font-size: 12px;
+  }
+
+  .newCeramics__rowCard {
+    /* min-width: 50px; */
+  }
+
+  .newCeramics__rowCard h4 {
+    font-family: var(--font-option);
+    font-size: 10px;
+    line-height: 1.4;
+    color: #2a254b;
+  }
+
+  .newCeramics__rowCard p {
+    font-size: 8px;
+    padding-top: 8px;
+  }
+
+  .newCeramics__button {
+    padding: 35px 0 56px 0;
+    text-align: center;
+  }
+
+  .newCeramics__button button {
+    padding: 16px 32px;
+    width: 100%;
+    color: #2a254b;
+    background-color: #f9f9f9;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+    font-size: 16px;
+  }
+
+  .newCeramics__rowGroupTwo {
+    display: flex;
+    gap: 16px;
+  }
+
+  img {
+    width: 183px !important;
+  }
 }

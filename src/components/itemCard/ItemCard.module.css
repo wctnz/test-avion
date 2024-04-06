@@ -1,0 +1,183 @@
+.itemCard {
+}
+
+.container {
+}
+
+.row {
+  display: flex;
+}
+
+.leftSection {
+  flex: 1;
+  padding-left: 10px;
+}
+
+.leftSection img {
+  width: 80%;
+  /* height: 80%; */
+  object-fit: cover;
+  margin: auto;
+}
+
+.rightSection {
+  flex: 1;
+}
+
+.rightSection__container {
+  padding: 0px 80px 51px 62px;
+}
+
+.title {
+  font-family: var(--font-option);
+  font-size: 36px;
+  color: #2a254b;
+  padding: 0px 0 0 40px;
+}
+
+.price {
+  font-size: 24px;
+  padding: 13px 0 14px 40px;
+}
+
+.desc {
+}
+
+.desc__title {
+  font-family: var(--font-option);
+  font-size: 16px;
+  color: #2a254b;
+  padding: 40px 0 0 40px;
+}
+
+.desc__desc {
+  font-size: 16px;
+  color: #505977;
+  padding: 16px 0 0 40px;
+  letter-spacing: 0.5px;
+}
+
+.desc__list {
+  padding: 20px 0 23px 40px;
+  color: #505977;
+  letter-spacing: 0.5px;
+}
+
+.desc__list ul {
+  list-style: disc inside;
+}
+
+.dimensions {
+}
+
+.dimensions__title {
+  font-family: var(--font-option);
+  font-size: 16px;
+  color: #2a254b;
+  padding: 27px 0 0 40px;
+}
+
+.dimensions__rowTop {
+  display: flex;
+  gap: 58px;
+}
+
+.dimensions__rowTop p {
+  font-family: var(--font-option);
+  font-size: 14px;
+  color: #2a254b;
+  padding: 28px 0 0 40px;
+}
+
+.dimensions__rowBottom {
+  display: flex;
+  gap: 62px;
+}
+
+.dimensions__rowBottom p {
+  font-family: var(--font-option);
+  font-size: 14px;
+  color: #505977;
+  padding: 12px 0 15px 40px;
+}
+
+.bottomRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+label {
+  font-family: var(--font-option);
+  font-size: 16px;
+  color: #2a254b;
+  padding: 12px 0 0px 40px;
+}
+
+.input input {
+  width: 122px;
+  height: 46px;
+  background-color: #f9f9f9;
+  border: none;
+}
+
+.input {
+  display: flex;
+}
+
+.buttonAddToCart button {
+  padding: 16px 32px;
+  color: white;
+  background-color: #2a254b;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.buttonAddToCart:hover button {
+  /* opacity: 0.5; */
+  background-color: #4e4d93;
+}
+
+.count__input::-webkit-inner-spin-button,
+.count__input::-webkit-outer-spin-button {
+  appearance: none;
+}
+
+.count {
+  padding-left: 22px;
+}
+
+.count__up,
+.count__down {
+  background: transparent;
+  border: none;
+  position: absolute;
+  cursor: pointer;
+}
+
+.count__up {
+  top: -28px;
+  left: 90px;
+}
+
+.count__down {
+  top: -24px;
+  left: 16px;
+}
+
+.count__controls {
+  position: relative;
+}
+
+.count__input {
+  padding-left: 55px;
+}
+
+.count__controls button:hover {
+  background: none;
+}
+
+.disabled {
+opacity: 0.1;
+}

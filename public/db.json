@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "category": "Chairs",
+    "title": "The Dandy chair",
+    "desc": "qqqqqqqqqqqqq",
+    "price": 250,
+    "image": "./../assets/images/ourPopular/2.png",
+    "popular": true,
+    "count": 1
+  },
+  {
+    "id": 2,
+    "category": "Ceramics",
+    "title": "Rustic Vase Set",
+    "desc": "wwwwwwwwwwwwwww",
+    "price": 155,
+    "image": "./../assets/images/newCeramics/2.png",
+    "count": 1
+  },
+  {
+    "id": 3,
+    "category": "Ceramics",
+    "title": "Silky Vase",
+    "desc": "jjjjjjjjjjjjjjj",
+    "price": 125,
+    "image": "./../assets/images/newCeramics/3.png",
+    "count": 1
+  },
+  {
+    "id": 4,
+    "category": "Other",
+    "title": "The Lucy Lamp",
+    "desc": "rrrrrrrrrrrrrrrrr",
+    "price": 399,
+    "image": "./../assets/images/newCeramics/4.png",
+    "count": 1
+  },
+  {
+    "id": 5,
+    "category": "Other",
+    "title": "The Polar suede sofa",
+    "desc": "iiiiiiiiiiiiiiiiii",
+    "price": 980,
+    "image": "./../assets/images/ourPopular/1.png",
+    "popular": true,
+    "count": 1
+  },
+  {
+    "id": 6,
+    "category": "Chairs",
+    "title": "Wooden chair",
+    "desc": "lllllllllllllllllll",
+    "price": 250,
+    "image": "./../assets/images/ourPopular/3.png",
+    "popular": true,
+    "count": 1
+  },
+  {
+    "id": 7,
+    "category": "Ceramics",
+    "title": "Rustic Vase Set",
+    "desc": "wwwwwwwwwwwwwww",
+    "price": 155,
+    "image": "./../assets/images/newCeramics/2.png",
+    "count": 1
+  },
+  {
+    "id": 8,
+    "category": "Ceramics",
+    "title": "Silky Vase",
+    "desc": "jjjjjjjjjjjjjjj",
+    "price": 125,
+    "image": "./../assets/images/newCeramics/3.png",
+    "count": 1
+  },
+  {
+    "id": 9,
+    "category": "Chairs",
+    "title": "The Dandy chair black",
+    "desc": "lllllllllllllllllll",
+    "price": 250,
+    "image": "./../assets/images/ourPopular/4.png",
+    "count": 1
+  }
+]

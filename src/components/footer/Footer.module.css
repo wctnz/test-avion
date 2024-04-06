@@ -8,7 +8,8 @@ ul a {
 }
 
 .footer {
-  width: 1440px;
+  /* width: 1440px; */
+  width: 100vw;
   padding: 0 83px 0 82px;
   background-color: #2a254b;
 }
@@ -19,6 +20,7 @@ ul a {
 .rowTop {
   display: flex;
   justify-content: space-between;
+  flex-wrap: nowrap;
   padding-top: 58px;
   color: white;
 }
@@ -78,9 +80,6 @@ form {
   height: 56px;
   background-color: #4a4666;
   border: none;
-}
-
-.inputEmail {
   padding-left: 32px;
 }
 
@@ -122,4 +121,85 @@ form {
 
 .socials svg path {
   fill: white;
+}
+
+@media all and (max-width: 1105px) {
+  .inputEmail {
+    width: 324px;
+  }
+}
+
+@media all and (max-width: 992px) {
+  .rowTop {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 58px;
+    color: white;
+  }
+
+  .signUp {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+  }
+
+  form {
+    padding: 16px 0 0 0 !important;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .inputEmail {
+    width: 224px;
+    height: 56px;
+    background-color: #4a4666;
+    border: none;
+    padding-left: 32px;
+  }
+
+  .inputSubmit {
+    padding: 16px 32px;
+    background-color: white;
+    color: #2a254b;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+  }
+
+  .socials {
+    display: none;
+  }
+
+  .copyRight {
+    margin: auto;
+  }
+
+  .divider {
+    height: 1px;
+    border-bottom: 1px solid #4c4c87;
+    padding-top: 20px;
+  }
+
+  .ourCompany {
+  }
+
+  .footer {
+    /* width: 1440px; */
+    width: 100vw;
+    padding: 0 24px 0 24px;
+    background-color: #2a254b;
+  }
+
+  .menu,
+  .categories,
+  .ourCompany {
+    min-width: 110px;
+  }
+}
+
+@media all and (max-width: 390px) {
+  .ourCompany {
+    padding-top: 40px;
+  }
 }

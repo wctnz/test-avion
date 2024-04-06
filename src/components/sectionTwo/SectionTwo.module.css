@@ -1,12 +1,14 @@
 .sectionTwo {
-width: 1440px;
-padding: 0 110px 0 86px;
+  /* width: 1440px; */
+  width: 100vw;
+  padding: 0 110px 0 86px;
 }
 
 .container {
 }
 
 .content {
+
 }
 
 .title {
@@ -17,12 +19,15 @@ padding: 0 110px 0 86px;
   font-size: 24px;
   text-align: center;
   color: #2a254b;
+  padding-top: 60px;
 }
 
 .row {
-display: flex;
-gap: 91px;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 91px;
+  flex-wrap: nowrap;
 }
 
 .section {
@@ -43,4 +48,41 @@ gap: 91px;
   font-size: 16px;
   line-height: 1.5;
   color: #2a254b;
+}
+
+@media all and (max-width: 992px) {
+  .row {
+    flex-wrap: wrap;
+    gap: 0px;
+  }
+
+  .section {
+    padding: 36px 0 0px 0;
+    max-width: 300px;
+  }
+
+  .title h3 {
+    font-family: var(--font-option);
+    font-size: 20px;
+    text-align: center;
+    color: #2a254b;
+    padding-top: 48px;
+  }
+}
+
+@media all and (max-width: 390px) {
+  .sectionTwo {
+    padding: 0 24px 0 24px;
+  }
+
+  .title h3 {
+    text-align: start;
+  }
+
+  .row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
 }

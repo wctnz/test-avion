@@ -1,0 +1,198 @@
+.emptyCart {
+  text-align: center;
+  padding: 60px 0 60px 0;
+}
+
+.CartList {
+}
+
+.container {
+  padding: 64px 188px 48px 188px;
+}
+
+.title {
+  font-family: var(--font-option);
+  font-size: 36px;
+  color: #2a254b;
+}
+
+.items {
+}
+
+.items__tittleRow {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 48px;
+}
+
+.items__tittleRow p {
+  font-family: var(--font-option);
+  font-size: 14px;
+  color: #2a254b;
+}
+
+.items__tittleRow .items__tittleRow_total {
+padding-right: 200px;
+}
+
+.divider {
+  height: 1px;
+  background-color: #ebe8f4;
+  margin-top: 12px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.item__product {
+  display: flex;
+}
+
+.item__product_img {
+  width: 109px;
+  height: 134px;
+}
+
+.item__product_img img {
+}
+
+.item__product_info {
+  width: 179px;
+  padding: 12px 0 12px 21px;
+}
+
+.info__title {
+  font-family: var(--font-option);
+  font-size: 20px;
+  color: #2a254b;
+}
+
+.info__desc {
+  font-size: 14px;
+  color: #2a254b;
+}
+
+.info__price {
+  font-size: 16px;
+  color: #2a254b;
+}
+
+.item__quantity {
+  /* padding-right: 250px; */
+}
+
+.item__quantity_input {
+  font-size: 16px;
+  color: #2a254b;
+}
+
+.item__total {
+  font-size: 18px;
+  color: #2a254b;
+  padding-right: 100px;
+}
+
+.bottomSection {
+  padding: 28px 0px 48px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.bottomSection__subtotal {
+  display: flex;
+  align-items: center;
+}
+
+.bottomSection__subtotal_title {
+  font-family: var(--font-option);
+  font-size: 20px;
+  color: #4e4d93;
+}
+
+.bottomSection__subtotal_price {
+  font-family: var(--font-option);
+  font-size: 24px;
+  color: #2a254b;
+  padding-left: 16px;
+}
+
+.bottomSection__taxesInfo {
+  font-size: 14px;
+  color: #2a254b;
+  padding-top: 12px;
+}
+
+.bottomSection__button {
+  padding-top: 16px;
+}
+
+.bottomSection__button button {
+  padding: 16px 32px;
+  color: white;
+  background-color: #2a254b;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.bottomSection__button:hover button {
+  background-color: #4e4d93;
+}
+
+.count__input::-webkit-inner-spin-button,
+.count__input::-webkit-outer-spin-button {
+  appearance: none;
+}
+
+.count {
+  padding-right: 220px;
+}
+
+.count__up,
+.count__down {
+  background: transparent;
+  border: none;
+  position: absolute;
+  cursor: pointer;
+}
+
+.count__up {
+  top: -28px;
+  left: 90px;
+}
+
+.count__down {
+  top: -24px;
+  left: 16px;
+}
+
+.count__controls {
+  position: relative;
+}
+
+.count__input {
+  width: 122px;
+  height: 46px;
+  padding-left: 55px;
+  border: none;
+  background-color: #f9f9f9;
+}
+
+.count__controls button:hover {
+  background: none;
+}
+
+.item__closeBtn button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.item__closeBtn button:hover {
+  background: none;
+}

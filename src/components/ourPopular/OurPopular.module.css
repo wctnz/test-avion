@@ -1,7 +1,9 @@
 .ourPopular {
 }
+
 .container {
-  width: 1440px;
+  /* width: 1440px; */
+  width: 100vw;
   padding: 0 80px;
 }
 
@@ -21,6 +23,7 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
+  /* flex-wrap: wrap; */
 }
 
 .card {
@@ -47,7 +50,15 @@
   padding-top: 8px;
 }
 
-.card a {
+/* .card a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+} */
+
+.cardLink {
   position: absolute;
   top: 0;
   left: 0;
@@ -75,4 +86,74 @@
 
 button:hover {
   background-color: #eae2e2;
+}
+
+@media all and (max-width: 823px) {
+  .card.sofa {
+    padding-top: 0px;
+  }
+
+
+.row {
+  flex-wrap: wrap;
+}
+}
+
+@media all and (max-width: 390px) {
+  
+  .container {
+    padding: 0 0;
+    padding-left: 24px;
+  }
+
+  .titleHeader {
+    font-size: 24px;
+    padding-top: 48px;
+  }
+
+  .card h4 {
+    padding-top: 24px;
+    font-size: 12px;
+  }
+  .card p {
+    font-size: 10px;
+    padding-top: 8px;
+  }
+
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    position: relative;
+    opacity: 1;
+    transition: all 0.2s ease-in;
+    padding-top: 25px;
+  }
+
+  .card img {
+    min-width: 200px;
+    object-fit: cover;
+  }
+
+  .button {
+    padding: 42px 0 48px 0;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .button button {
+    width: 95%;
+    padding: 16px 32px;
+    color: #2a254b;
+    background-color: #f9f9f9;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+  }
 }
