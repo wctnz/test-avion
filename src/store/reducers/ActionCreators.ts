@@ -4,7 +4,8 @@ import { AppDispatch } from './../index';
 export const fetchItems = () => (dispatch: AppDispatch) => {
     dispatch(itemsSlice.actions.itemsFetching())
     try {
-        fetch("http://localhost:3000/db.json")
+        //http://localhost:3000/db.json
+        fetch("/db.json")
             .then(response => response.json())
             .then(data => dispatch(itemsSlice.actions.itemsFetchingSucces(data)))
     } catch (e) {
